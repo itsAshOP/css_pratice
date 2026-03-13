@@ -1,7 +1,3 @@
-@font-face {
-  font-family: gridPratice;
-  src: url(./NeueMachina-Light_gwWCZxVuQl.ttf);
-}
 * {
   margin: 0;
   padding: 0;
@@ -16,31 +12,12 @@ html, body {
 main {
   height: 100%;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: black;
-  color: red;
-  text-color: white;
+  display: grid;
+  grid-template-columns: 100px 300px 100px;
+  grid-template-rows: 100px 300px 100px;
 }
-main section {
-  height: 50%;
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  color: red;
-  text-color: white;
-}
-main section h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: red;
-  color: white;
-  text-color: white;
-  font-size: 100px;
-  font-weight: 800;
-  font-family: gridPratice;
+main .grid-item {
+  border: 2px solid white;
+  background-color: crimson;
 }/*# sourceMappingURL=style.css.map */
