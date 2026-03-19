@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-gap: 10px;
+    justify-content: center;
+    align-content: center;
+
+    .child{
+    background-color: rgb(159, 154, 154);
+    border: 3px solid rgb(196, 37, 37);
+    height: 100%;
+    width: 100%;
+}
+}
